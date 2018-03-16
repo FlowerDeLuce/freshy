@@ -1,0 +1,56 @@
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat-Bold/Montserrat-Bold.eot');
+	src: url('../fonts/Montserrat-Bold/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Montserrat-Bold/Montserrat-Bold.woff') format('woff'),
+		 url('../fonts/Montserrat-Bold/Montserrat-Bold.ttf') format('truetype'),
+		 url('../fonts/Montserrat-Bold/Montserrat-Bold.svg#FontName') format('svg');
+	font-style: normal;
+	font-weight: 700;
+}
+
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat-Regular/Montserrat-Regular.eot');
+	src: url('../fonts/Montserrat-Regular/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Montserrat-Regular/Montserrat-Regular.woff') format('woff'),
+		 url('../fonts/Montserrat-Regular/Montserrat-Regular.ttf') format('truetype'),
+		 url('../fonts/Montserrat-Regular/Montserrat-Regular.svg#FontName') format('svg');
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat-ExtraLight/Montserrat-ExtraLight.eot');
+	src: url('../fonts/Montserrat-ExtraLight/Montserrat-ExtraLight.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Montserrat-ExtraLight/Montserrat-ExtraLight.woff') format('woff'),
+		 url('../fonts/Montserrat-ExtraLight/Montserrat-ExtraLight.ttf') format('truetype'),
+		 url('../fonts/Montserrat-ExtraLight/Montserrat-ExtraLight.svg#FontName') format('svg');
+	font-style: normal;
+	font-weight: 200;
+}
+
+@font-face {
+	font-family: 'Hind';
+	src: url('../fonts/Hind-Regular/Hind-Regular.eot');
+	src: url('../fonts/Hind-Regular/Hind-Regular.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Hind-Regular/Hind-Regular.woff') format('woff'),
+		 url('../fonts/Hind-Regular/Hind-Regular.ttf') format('truetype'),
+		 url('../fonts/Hind-Regular/Hind-Regular.svg#FontName') format('svg');
+	font-style: normal;
+	font-weight: 400;
+}
+@font-face {
+	font-family: 'Hind';
+	src: url('../fonts/Hind-Bold/Hind-Bold.eot');
+	src: url('../fonts/Hind-Bold/Hind-Bold.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Hind-Bold/Hind-Bold.woff') format('woff'),
+		 url('../fonts/Hind-Bold/Hind-Bold.ttf') format('truetype'),
+		 url('../fonts/Hind-Bold/Hind-Bold.svg#FontName') format('svg');
+	font-style: normal;
+	font-weight: 700;
+}
+

@@ -1,0 +1,260 @@
+html, body{
+  font-family: Montserrat;
+  font-weight: 400;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: auto;
+  min-height: 100vh;
+}
+.container{
+  max-width: 1170px;
+  padding: 0;
+}
+.header{
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  font-family: Montserrat;
+  color:  #ffffff;
+  padding-top: 40px;
+}
+.bold-text{
+  font-weight: 700;
+}
+
+.light-text{
+  font-weight: 200;
+}
+
+.top-banner{
+  width: 100%;
+  position: relative;
+  height: 100vh;
+    &:before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #336699;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    }
+}
+.top-banner__slider{
+  width: 100%;
+  height: 100%;
+}
+
+.top-banner__slide{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../img/top-banner.jpg);
+  width: 100%;
+  height: 100vh;
+}
+
+.main-logo{
+  font-size: 25px;
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+    &:after{
+    content: '';
+    width: 0;
+    height: 1px;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: -8px;
+    transition: all 0.5s;
+    background: #fff;
+    }
+    &:hover{
+    color: #fff;
+    &:after{
+      width: 100%;
+      transition: all 0.5s;
+    }
+    
+  }
+}
+.main-menu__list{
+  display: block;
+  li{
+  display: inline-block;
+  padding: 5px 10px;
+  }
+  a{
+  font-size: 14px;
+  display: block;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 1;
+  position: relative;
+  transition: all 0.5s;
+    &:after{
+      content: '';
+      width: 0;
+      height: 1px;
+      position: absolute;
+      transform: translateX(-50%);
+      left: 50%;
+      bottom: -8px;
+      transition: all 0.5s;
+      background: #fff;
+    }
+    &:hover{
+      color: #fff;
+      &:after{
+        width: 100%;
+        transition: all 0.5s;
+      }
+    }
+  }
+}
+.header__container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__tel-btn{
+  color:  #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 15.01px;
+  padding: 13px;
+  width: 140px;
+  display: block;
+  &:hover{
+   color: #fff;
+   background-color:  #00a1eb;
+   span:after{
+     width: 100%;
+     transition: all 0.5s;
+   }
+  }
+  span{
+    display: block;
+    position: relative;
+    &:after{
+      content: '';
+      width: 0;
+      height: 1px;
+      position: absolute;
+      transform: translateX(-50%);
+      left: 50%;
+      bottom: -5px;
+      transition: all 0.5s;
+      background: #fff;
+    }
+  
+  }
+ 
+}
+
+.main-nav{
+  display: flex;
+  align-items: center;
+}
+.btn{
+  border-radius: 4px;
+  display: block;
+  width: 152px;
+  white-space: pre-wrap;
+  padding: 15px;
+}
+.blue-btn{
+  background-color:  #00a1eb;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 15.01px;
+  &:hover{
+    transition: all 0.5s;
+    color: #fff;
+    background-color:  #0097e1;
+  }
+}
+
+.top-banner__text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  color:  #ffffff;
+  z-index: 1;
+}
+
+.main-heading{
+  font-size: 78px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.banner-subheading{
+  font-family: Hind;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+}
+.mobile-menu__line{
+  display: block;
+  width: 21px;
+  height: 3px;
+  background: #fff;
+  transition: all 0.5s;
+  &.top{
+    position: relative;
+    top: -6px;
+    transition: all 0.5s;
+  }
+  &.bottom{
+    position: relative;
+    bottom: -6px;
+    transition: all 0.5s;
+  }
+  &.middle{
+    opacity: 1;
+    transition: all 0.5s;
+  }
+}
+.mobile-menu__icon{
+  cursor: pointer;
+  display: none;
+  z-index: 9999999;
+  &.active{
+    .mobile-menu__line{
+      background: #fff;
+      transition: all 0.5s;
+      &.middle{
+        opacity: 0;
+        transition: all 0.5s;
+      }
+      &.top{
+        transform: rotate(45deg);
+        top: 3px;
+        transition: all 0.5s;
+      }
+      &.bottom{
+        transform: rotate(-45deg);
+        bottom: 3px;
+        transition: all 0.5s;
+      } 
+    }
+  }
+}

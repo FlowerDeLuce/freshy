@@ -1,0 +1,187 @@
+
+@media only screen and (max-width : 1300px)
+{
+  .container{
+    padding: 0 20px;
+  }
+  .assortment-slider{
+     margin-right: 30px;
+     margin-left: 30px;
+  }
+  .contact-right {
+    padding-right: 30px;
+  }
+  .about-left{
+    padding-right: 7%;
+  }
+}
+
+@media only screen and (max-width : 980px)
+{
+  .container{
+    padding: 0 20px;
+  }
+  .main-menu__list{
+    display: none;
+  }
+  .header__tel-btn{
+    display: none;
+  }
+  
+  .mobile-menu__icon{
+    display: block;
+  }
+  .main-menu__list{
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background: #00a1eb;
+    li{
+      display: block;
+      padding: 15px 40px;
+    }
+  }
+  .header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: all 0.5s;
+    &.active{
+      background: #00a1eb;
+      transition: all 0.5s;
+    }
+  }
+}
+
+@media only screen and (max-width : 768px)
+{
+   .section {
+    padding-top: 50px;
+    padding-bottom: 30px;
+  } 
+  .assortment-top-text{
+    width: 85%;
+  }
+  .main-heading {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  .main-logo{
+    font-size: 20px;
+  }
+  .banner-subheading{
+    font-size: 18px;
+  }
+  .section-heading{
+    margin-bottom: 30px;
+    font-size: 22px;
+    &:after{
+      bottom: -15px;
+      width: 50px;
+    }
+  }
+  .about-tel{
+    font-size: 18px;
+  }
+  .capabilities-title{
+    font-size: 18px;
+    margin-bottom: 28px;
+    &:after{
+      bottom: -14px;
+    }
+  }
+  
+}
+
+@media only screen and (max-width : 560px)
+{
+  .main-heading {
+    font-size: 28px;
+  }
+  .about-container{
+    display: block;
+  }
+  .about-left{
+    width: 100%;
+    margin-bottom: 20px;
+    padding-right: 0;
+  }
+  .about-right{
+    width: 100%;
+    height: 220px;
+  }
+  .about-heading{
+    text-align: center;
+    &:after{
+      left: 50%;
+      transform: translate(-50%);
+    }
+  }
+  
+  .about-tel{
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  .about-btn{
+    margin: 0 auto;
+  }
+  
+  .capabilities-item{
+    margin-bottom: 20px;
+  }
+  .capabilities-image{
+    width: 100px;
+    height: 100px;
+  }
+  .capabilities-btn {
+    margin: 30px auto 0;
+ }
+  .contacts-section{
+    flex-direction: column;
+    height: auto;
+  }
+  
+  .map-wrapper{
+    transform: skewX(0);
+    width: 100%;
+    height: 240px;
+    order: 2;
+  }
+  .map{
+    width: 100%;
+    transform: skewX(0);
+  }
+  .contact-right__wrapper{
+    width: 100%;
+    transform: skewX(0);
+  }
+  .contact-right{
+    transform: skewX(0);
+    padding: 20px;
+  }
+  .contacts-heading{
+    text-align: center;
+    &:after{
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+  .contacts-text{
+    padding: 0;
+    text-align: center;
+  }
+  .contact-btn{
+    margin: 0 auto 15px;
+  }
+  .map-wrapper:before{
+    display: none;
+  }
+  .assortment-title{
+    font-size: 16px;
+  }
+  .assortment-price{
+    font-size: 18px;
+  }
+  .footer{
+    font-size: 14px;
+  }
+}
